@@ -24,7 +24,7 @@ const WORKS = [
   { title:"mercedes tire under sunlights",            cat:"photography", tag:"Cars", h:1.1, img:"assets/images/goldenmerc.jpg" },
   { title:"sinlight refletion",            cat:"editing",      tag:"Retouch", h:0.95, img:"assets/images/favwall.jpeg" },
   { title:"historic grand poste ORAN",              cat:"photography", tag:"Architecture", h:1.4, img:"assets/images/historic grand poste ORAN.JPG" },
-  { title:"AI House Relizane University",       cat:"logos",        tag:"Logo", h:0.9, img:"assets/images/aih.PNG" },
+  { title:"AI House Relizane University",       cat:"logos",        tag:"Logo", h:0.9, img:"assets/images/aih.PNg" },
   { title:"Bored flowers",           cat:"editing",      tag:"Color Grade", h:1.05, img:"assets/images/floweraftr.JPG" },
   { title:"my beautiful fish ",           cat:"editing",      tag:"Color Grade", h:1.05, img:"assets/images/favfish.JPG" },
   { title:"long exposure streeshot",       cat:"photography", tag:"Street", h:1.25, img:"assets/images/long expo.JPG" },
