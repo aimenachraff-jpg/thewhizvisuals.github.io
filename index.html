@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>thewhizvisuals — Chekalil Aimene | Visual Creator</title>
+<meta name="description" content="thewhizvisuals — Chekalil Aimene. Photography, photo editing, posters &amp; logo design. Capturing raw moments, refining reality.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&family=Archivo:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+
+<!-- Grain / vignette overlay -->
+<div class="grain"></div>
+<div class="viewfinder" id="viewfinder">
+  <span class="vf-corner vf-tl"></span>
+  <span class="vf-corner vf-tr"></span>
+  <span class="vf-corner vf-bl"></span>
+  <span class="vf-corner vf-br"></span>
+</div>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <div class="loader-frame">F.01</div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav-mark">thewhizvisuals</a>
+  <nav class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#retouch">Retouch</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#work">Work</a>
+  <a href="#retouch">Retouch</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <span class="mobile-menu-foot">@thewhizvisuals — Oran, DZ</span>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <div class="hero-plate plate-a"></div>
+    <div class="hero-plate plate-b"></div>
+  </div>
+
+  <div class="hero-frame-label">
+    <span>F.00</span>
+    <span class="hero-frame-meta">35MM · OR—DZ · 2026</span>
+  </div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Visual Creator — Photography / Editing / Identity</p>
+    <h1 class="hero-title">
+      <span class="hero-title-line">the<em>whiz</em></span>
+      <span class="hero-title-line">visuals</span>
+    </h1>
+    <p class="hero-tagline">Capturing raw moments, <span class="tagline-soft">refining reality.</span></p>
+  </div>
+
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="hero-scroll-line"></div>
+  </div>
+
+  <div class="hero-edge hero-edge-left">CHEKALIL AIMENE</div>
+  <div class="hero-edge hero-edge-right">EST. ORAN</div>
+</section>
+
+<!-- ============ MARQUEE STRIP ============ -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>Photography</span><span class="dot">·</span>
+    <span>Color Grading</span><span class="dot">·</span>
+    <span>Poster Design</span><span class="dot">·</span>
+    <span>Logo &amp; Identity</span><span class="dot">·</span>
+    <span>Photo Retouching</span><span class="dot">·</span>
+    <span>Photography</span><span class="dot">·</span>
+    <span>Color Grading</span><span class="dot">·</span>
+    <span>Poster Design</span><span class="dot">·</span>
+    <span>Logo &amp; Identity</span><span class="dot">·</span>
+    <span>Photo Retouching</span><span class="dot">·</span>
+  </div>
+</div>
+
+<!-- ============ IMMERSIVE GRID ============ -->
+<section class="grid-section" id="work">
+  <div class="section-head reveal">
+    <span class="section-frame">F.01</span>
+    <h2>Selected&nbsp;Frames</h2>
+    <p class="section-sub">A working contact sheet — street, architecture, identity &amp; print, pulled from recent rolls.</p>
+  </div>
+
+  <div class="filter-bar reveal" id="filterBar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="photography">Photography</button>
+    <button class="filter-btn" data-filter="posters">Posters</button>
+    <button class="filter-btn" data-filter="logos">Logos</button>
+    <button class="filter-btn" data-filter="editing">Editing</button>
+  </div>
+
+  <div class="masonry" id="masonryGrid">
+    <!-- Items injected by JS for consistent data + filtering -->
+  </div>
+</section>
+
+<!-- ============ FEATURED WORK ============ -->
+<section class="featured" id="featured">
+  <div class="section-head reveal">
+    <span class="section-frame">F.02</span>
+    <h2>Featured&nbsp;Work</h2>
+    <p class="section-sub">Nine frames that define the eye behind thewhizvisuals.</p>
+  </div>
+
+  <div class="featured-grid" id="featuredGrid"></div>
+</section>
+
+<!-- ============ BEFORE / AFTER ============ -->
+<section class="retouch" id="retouch">
+  <div class="section-head reveal light">
+    <span class="section-frame">F.03</span>
+    <h2>Raw&nbsp;→&nbsp;Refined</h2>
+    <p class="section-sub">Drag the line. Same frame, two realities.</p>
+  </div>
+
+  <div class="ba-slider reveal" id="baSlider">
+    <div class="ba-after">
+      <div class="ba-label ba-label-after">After</div>
+    </div>
+    <div class="ba-before" id="baBefore">
+      <div class="ba-label ba-label-before">Before</div>
+    </div>
+    <div class="ba-handle" id="baHandle">
+      <div class="ba-handle-line"></div>
+      <div class="ba-handle-grip">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 1L1 7L5 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 1L13 7L9 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </div>
+  </div>
+  <p class="ba-caption reveal">Color grade · Tone mapping · Skin &amp; texture retouch · Atmospheric depth</p>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <span class="section-frame reveal">F.04</span>
+    <p class="about-bio reveal">
+      I'm <strong>Chekalil Aimene</strong> — working as <strong>thewhizvisuals</strong> out of Oran, Algeria.
+      I shoot what's already there and shape what isn't yet: street frames, car portraits, architectural
+      lines, brand marks, and posters built to hold a wall. The camera finds the moment.
+      The edit decides what it means.
+    </p>
+    <div class="about-meta reveal">
+      <div class="about-meta-item">
+        <span class="meta-label">Based</span>
+        <span class="meta-value">Oran, Algeria</span>
+      </div>
+      <div class="about-meta-item">
+        <span class="meta-label">Focus</span>
+        <span class="meta-value">Photography · Editing · Identity</span>
+      </div>
+      <div class="about-meta-item">
+        <span class="meta-label">Available</span>
+        <span class="meta-value">Worldwide, remote</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="contact-bg-frame">F.05</div>
+  <p class="contact-eyebrow reveal">Open for select projects</p>
+  <h2 class="contact-title reveal">Let's make<br>something worth<br><em>looking at.</em></h2>
+  <a href="https://instagram.com/thewhizvisuals" target="_blank" rel="noopener" class="contact-ig reveal">
+    <span class="contact-ig-text">@thewhizvisuals</span>
+    <span class="contact-ig-arrow" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+  </a>
+  <p class="contact-sub reveal">DM on Instagram — fastest way to reach me.</p>
+</section>
+
+<footer class="footer">
+  <span>© <span id="year"></span> thewhizvisuals</span>
+  <span>Chekalil Aimene — Oran, DZ</span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
