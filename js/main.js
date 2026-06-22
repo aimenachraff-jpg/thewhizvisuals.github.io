@@ -19,7 +19,7 @@ const WORKS = [
   { title:"Golden Salamander",             cat:"editing",      tag:"Color Grade", h:1.0, img:"assets/images/mosta2.JPG" },
   { title:"Relizane's architecture",               cat:"photography", tag:"Architecture", h:1.15, img:"assets/images/relizanemosque.JPG" },
   { title:"CODE GENIUS CLUB LIGHT V",          cat:"logos",        tag:"Logo", h:0.85, img:"assets/images/IMG_4846.PNG" },
-  { title:"Souk, Early Light",          cat:"photography", tag:"Street", h:1.35, img:"assets/images/cpa.jpg" },
+  { title:"Souk, Early Light",          cat:"photography", tag:"Street", h:1.35, img:"assets/images/cpa.JPG" },
   { title:"AI house bachground poster",        cat:"posters",      tag:"Poster", h:0.7, img:"assets/images/aihp.PNG" },
   { title:"mercedes tire under sunlights",            cat:"photography", tag:"Cars", h:1.1, img:"assets/images/goldenmerc.jpg" },
   { title:"sinlight refletion",            cat:"editing",      tag:"Retouch", h:0.95, img:"assets/images/favwall.jpeg" },
