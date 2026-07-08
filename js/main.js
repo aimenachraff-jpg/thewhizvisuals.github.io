@@ -25,7 +25,7 @@ const WORKS = [
   { title:"North & Ember Logo with slogan",          cat:"logos",        tag:"Logo", h:0.85, img:"assets/images/ne full.png" },
   { title:"CPA Oran",          cat:"photography", tag:"Street", h:1.35, img:"assets/images/cpa.JPG" },
   { title:"AI house bachground poster",        cat:"posters",      tag:"Poster", h:0.7, img:"assets/images/aihp.PNG" },
-  { title:"mercedes tire under sunlights",            cat:"photography", tag:"Cars", h:1.1, img:"assets/images/goldenmerc.jpg" },
+  { title:"mercedes tire under sunlights",            cat:"photography", tag:"Cars", h:1.1, img:"assets/images/goldenmerctire.JPG" },
   { title:"sinlight refletion",            cat:"editing",      tag:"Retouch", h:0.95, img:"assets/images/favwall.jpeg" },
   { title:"historic grand poste ORAN",              cat:"photography", tag:"Architecture", h:1.4, img:"assets/images/historic grand poste ORAN.JPG" },
   { title:"AI House Relizane University",       cat:"logos",        tag:"Logo", h:0.9, img:"assets/images/aih.PNG" },
