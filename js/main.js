@@ -17,6 +17,7 @@ const WORKS = [
   { title:"North & Ember mogs",     cat:"posters",      tag:"Poster", h:0.85, img:"assets/images/ne cup.png" },
   { title:"beauty of mosta Poster",     cat:"posters",      tag:"Poster", h:0.85, img:"assets/images/postermosta.JPG" },
   { title:"Code Genius Club",           cat:"logos",        tag:"Logo", h:0.9, img:"assets/images/cgcb.PNG" },
+  { title:"Roof top figure ",              cat:"photography", tag:"Architecture", h:1.0, img:"assets/images/IMG_3696.JPG" },
   { title:"North & Ember Coffee Brand",           cat:"logos",        tag:"Logo", h:0.9, img:"assets/images/ne logo.png" },
   { title:"Coastal Drive, 6PM",         cat:"photography", tag:"Street", h:1.2, img:"assets/images/showfull.jpg" },
   { title:"Golden Salamander",             cat:"editing",      tag:"Color Grade", h:1.0, img:"assets/images/mosta2.JPG" },
